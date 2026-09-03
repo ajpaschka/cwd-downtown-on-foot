@@ -9,3 +9,7 @@ Deployed via GitHub Pages at [ajpaschka.github.io/cwd-downtown-on-foot](https://
 Built as a reusable pattern, not a one-off — the mechanism (day-by-day event list, heart-to-itinerary, print view) is meant to be forked/adapted for the next downtown event week (this page itself hands off to ArtPrize on Sept 18) rather than rebuilt from scratch.
 
 Originally prototyped as a Claude Artifact before migrating here for real `window.print()` support (the Artifact viewer's sandbox blocks script-triggered print/download dialogs) and a clean CWD-only URL with no Claude-viewer wrapper.
+
+## TODO
+
+- **Swap the footer mark for the full white CWD logo.** The footer currently uses a hand-cropped inline SVG of just the mark's two bracket paths (extracted from the wordmark viewBox), not the full logo. Per the CWD brand profile (`_shared/brand/profiles/cwd.md`), the canonical source is `CWD Projects/CWD CMYK Logo.svg` — dark backgrounds get the white version of that same master file, not a recreated or partial mark. Flagged 2026-09-03, not urgent.
